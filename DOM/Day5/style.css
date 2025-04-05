@@ -1,0 +1,33 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+body {
+    height: 100vh;
+    background-color: black;
+}
+
+.elem {
+    height: 200px;
+    border-bottom: 5px solid white;
+    color: white;
+}
+
+img {
+   
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+    position: absolute;
+    object-position: center;
+    mix-blend-mode: difference;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+    transition: all linear 0.2s;
+    opacity: 0;
+}
